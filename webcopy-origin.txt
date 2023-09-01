@@ -1,0 +1,184 @@
+Uri: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\npm\bootstrap-icons@1.7.2\font\bootstrap-icons.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\npm\bootstrap-icons@1.7.2\font\fonts\bootstrap-icons.woff2
+Content Type: font/woff2
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\npm\bootstrap-icons@1.7.2\font\fonts\bootstrap-icons.woff
+Content Type: font/woff
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\ajax\libs\jquery\3.5.1\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\ajax\libs\popper.js\1.12.9\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat:400,700,200
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\inter\v12\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\inter\v12\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\inter\v12\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\inter\v12\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\inter\v12\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\s\montserrat\v25\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\bootstrap\4.0.0\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/font-awesome/latest/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\font-awesome\latest\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://staking.sfmoonvision.com/
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\index.htm
+Content Type: text/html
+
+Uri: https://staking.sfmoonvision.com/assets/css/2.cafa0501.chunk.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\2.cafa0501.chunk.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/css/custom.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\custom.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/css/main.7bf107a0.chunk.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\main.7bf107a0.chunk.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/css/paper-dashboard.css?v=2.0.1
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\paper-dashboard.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/css/slider.css
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\css\slider.css
+Content Type: text/css
+
+Uri: https://staking.sfmoonvision.com/assets/images/metamask.png
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\images\metamask.png
+Content Type: image/png
+
+Uri: https://staking.sfmoonvision.com/assets/images/trust.png
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\images\trust.png
+Content Type: image/png
+
+Uri: https://staking.sfmoonvision.com/assets/images/wlconnect.svg
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\images\wlconnect.svg
+Content Type: image/svg+xml
+
+Uri: https://staking.sfmoonvision.com/assets/js/config.web3.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\config.web3.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/core/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\core\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/core/jquery.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\core\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/core/popper.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\core\popper.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/custom.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\custom.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/index.web3.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\index.web3.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/paper-dashboard.min.js?v=2.0.1
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\paper-dashboard.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/plugins/bootstrap-notify.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\plugins\bootstrap-notify.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/plugins/chartjs.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\plugins\chartjs.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/plugins/perfect-scrollbar.jquery.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\plugins\perfect-scrollbar.jquery.min.js
+Content Type: application/javascript
+
+Uri: https://staking.sfmoonvision.com/assets/js/slider.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\assets\js\slider.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/@walletconnect/web3-provider@1.6.5/dist/umd/index.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\@walletconnect\web3-provider@1.6.5\dist\umd\index.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/web3@1.6.0/dist/web3.min.js
+File Name: C:\Downloaded Web Sites\staking.sfmoonvision.com\web3@1.6.0\dist\web3.min.js
+Content Type: application/javascript
+

@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon.ico">
+  <link rel="icon" type="image/png" href="./assets/img/UPRISE.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+  UPRISE - Staking
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'>
+  <!--     Fonts and icons     -->
+  <link href="css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+
+  <link href="assets/css/main.7bf107a0.chunk.css" rel="stylesheet">
+  <link href="assets/css/2.cafa0501.chunk.css" rel="stylesheet">
+  <link href="assets/css/slider.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet">
+
+  <link rel="stylesheet" href="css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+
+  <script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="white" data-active-color="danger">
+      <div class="logo">
+        <a href="https://Upristoken.io/" class="simple-text logo-normal">
+          <div class="logo-image-big">
+            <img src="./assets/img/Upristoken.png">
+          </div>
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+        <!--  <li>
+            <a href="/">
+              <i class="nc-icon nc-bank"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>-->
+          <li>
+            <a href="https://Upristoken.io/" target="_blank">
+              <i class="bi bi-house-door-fill"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://nft.Upristoken.io/">
+              <i class="bi bi-image-fill"></i>
+              <p>NFT</p>
+            </a>
+          </li>
+          <li style="box-shadow: 0px 0px 20px 0px #9945e5;" class="active ">
+            <a href="https://Upristoken.io/">
+              <i class="bi bi-cash-coin"></i>
+              <p>Staking</p>
+            </a>
+          </li>
+          <!--<li>
+            <a href="#" >
+              <i class="bi bi-check2-square"></i>
+              <p>DAO</p>
+            </a>
+          </li>-->
+          <!--<li>
+            <a href="/NFT.html">
+              <i class="bi bi-images"></i>
+              <p>NFT</p>
+            </a>
+          </li>-->
+          <!--<li>
+            <a href="https://www.facebook.com/XPNETWORKOFFICIAL/" target="_blank">
+              <i class="bi bi-facebook"></i>
+              <p>Facebook</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/xp_network/" target="_blank">
+              <i class="bi bi-instagram"></i>
+              <p>Instagram</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.com/invite/g3vkcsmd38" target="_blank">
+              <i class="bi bi-discord"></i>
+              <p>Discord</p>
+            </a>
+          </li>-->
+          <li>
+            <a href="https://t.me/Uprisetoken" target="_blank">
+              <i class="bi bi-telegram"></i>
+              <p>Telegram</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Uprise_token" target="_blank">
+              <i class="bi bi-twitter"></i>
+              <p>Twitter</p>
+            </a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="interact-button navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <div class="logo-image-big">
+                <img style="max-width: 300px;" src="./assets/img/UPRISE2.png">
+              </div>
+          </div>
+          <button style="padding: 5px 5px;font-size: 0.8em;" class="interact-button btn btn-warning btn-md navbar-toggler btn-connect" type="button" data-toggle="modal" data-target="#connectWallet">
+            <span id="btn-connect-txt">Connect Wallet</span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+
+            <button type="button" data-toggle="modal" data-target="#connectWallet" class="interact-button btn btn-warning btn-md btn-connect">
+              <span id="btn-connect-txt">Connect Wallet</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row">
+          <div class="container grid px-6 mx-auto">
+            <div style="overflow: hidden;" class="pb-10">
+
+                <div class="container main-content">
+                    <div style="border-radius: 18px;max-width: 700px;max-height: 840px;box-shadow: 0px 0px 14px 8px #248ae9;" class="col-sm-8 table-view">
+                        <!--<div style="padding: 15px;" class="table-top">
+                            <!--<img src="./assets/img/coin.png" class="img-fulid">
+                            <div class="top-link">
+                                <a href="https://SatoshiGirl.site/" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Website</a>
+                                <a href="https://cronoscan.com/token/0x43e90012a3d69AeBdc2750424b41655776c6D598" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Token Contract</a>
+                                <a href="https://mm.finance/swap?outputCurrency=0x43e90012a3d69aebdc2750424b41655776c6d598" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Buy Now</a>
+                            </div>
+                        </div>-->
+
+                        <div style="padding: 15px;" class="vault-wrap">
+                            <h5 class="title-6">UPRISE Staking</h5>
+                            <div class="vault-info">
+                                <div class="vault-title">APY:</div>
+                                <div class="vault-value" id="info-apy">--%</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total ETH Claimed: </div>
+                                <div class="vault-value" id="total-ETH-claimed">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total $UP Staked:</div>
+                                <div class="vault-value" id="info-total-staking">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total $UP Staked (USD):</div>
+                                <div class="vault-value" id="info-total-staking-usd"> 0.00</div>
+                            </div>
+
+                        </div>
+                        <div style="padding: 15px;" class="stake-wrap">
+                            <h5 class="title-6">STAKE YOUR $UP</h5>
+                            <div class="reflec-info" style="color: #f08c1d;">
+
+                            </div>
+                            <div class="nix-max">
+                                <span class="nix-value">Your $UP:<span style="margin-left: 5px;" id="your-cu-balance">0</span></span>
+                                <button class="max-btn" id="interact-button btn-stake-max">Max</button>
+                            </div>
+                            <input style="--border-opacity: 1;
+                            --border-opacity: 1;
+                            border-color: #54c1d7;
+                            border-width: 3px;
+                            margin-top: 10px;
+                            box-shadow: 0px 5px 12px 0px #364761d9;
+                            border-radius: 1rem;
+                            background-color: #248ae9;--text-opacity: 1;color: rgba(255,255,255,var(--text-opacity));" class="input-bordered" type="number" placeholder="0" id="input-stake">
+                            <!--<div class="lock-time">
+                                Lock Time in Days: &nbsp;<span id="info-lock-time">7</span>
+                            </div>-->
+                            <!-- Range Slider -->
+                          <!--  <input id="myRange" type="text" />
+                            <!-- Range Slider -->
+                            <!--<div class="lock-bonus">
+                                <div class="lock-info">
+                                    <div class="lock-title">Locking Bonus:</div>
+                                    <div class="lock-value" id="info-lock-bonus">0</div>
+                                </div>
+                                <div class="lock-info">
+                                    <div class="lock-title">Scaling Locking Bonus:</div>
+                                    <div class="lock-value">~<span id="info-lock-bonus-percent">0.01</span>% per Day (Max = 0.1%, 15 days = 0.01%)</div>
+                                </div>
+                            </div>-->
+                            <button id="btn-unlock-wallet" class="interact-button form-control mb-3 btn btn-warning btn-md" data-toggle="modal" data-target="#connectWallet">Connect Wallet</button>
+                          <!--  <button id="btn-approve" class="interact-button form-control mb-3 btn btn-warning btn-md" style="display:none;">Approve</button>
+                            <button id="btn-stake" class="interact-button form-control mb-3 btn btn-warning btn-md" style="display:none">Stake</button>-->
+                            <!--<div class="fee-wrap" style="font-size: 14px;font-style: italic;margin-top: 5px;">
+                                <div class="fee-info">
+                                    <div class="fee-title">Entry Fee:</div>
+                                    <div style="margin-left: 5px;" class="entry-fee-value">8% </div>,<br>
+                                    <div class="fee-title">  Exit Fee:</div>
+                                    <div style="margin-left: 5px;" class="entry-fee-value">0%</div>
+                                </div>
+                            </div>-->
+                            <div class="fee-wrap">
+                              <div class="fee-info">
+                                <!--  <div class="fee-title">SatoshiGirl Rewards to be distributed to all users:</div>
+                                  <div class="fee-value" id="info-total-distributed">0.00</div>-->
+                              </div>
+                              <!--<div class="fee-info">
+                                  <div class="fee-title">ETH rewards paid to all users:</div>
+                                  <div class="fee-value" id="info-total-distributed-usdt">0.00</div>
+                              </div>-->
+                          </div>
+                        </div>
+                    </div>
+
+                    <div style=" border-radius: 18px;max-width: 700px;box-shadow: 0px 0px 14px 8px #98a1ff;margin-top: 52px;" class="col-sm-8 table-view">
+                        <div style="padding: 15px;" class="stake-wrap">
+                            <h5 class="title-6">EARNINGS AND UNSTAKE TOKENS</h5>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Staked $UP:</div>
+                                <div class="vault-value" id="your-staking">0.00</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Stake (USD):</div>
+                                <div class="vault-value" id="your-staking-usd">$0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Share: </div>
+                                <div class="vault-value" id="your-share">0.00%</div>
+                            </div>
+                            <!--<div class="vault-info">
+                                <div class="vault-title">Unlocked Tokens:</div>
+                                <div class="vault-value" id="your-unlocked">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Time Left: </div>
+                                <div class="vault-value" id="your-time-left">0 days, 0:0:0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Unlock Date:</div>
+                                <div class="vault-value" id="your-unlock-date">--, -- , --:--</div>
+                            </div>-->
+                            <div class="vault-info">
+                              <div class="vault-title">Your Pending ETH Rewards:</div>
+                              <div class="vault-value" id="your-cu-reward">0</div>
+                            </div>
+                          <div class="vault-info">
+                              <div class="vault-title">Your Claimed ETH Rewards:</div>
+                              <div class="vault-value" id="your-ETH-claimed">0</div>
+                          </div>
+                          <!--<button id="btn-unstake" class="interact-button form-control mb-3 btn btn-warning btn-md" >Claim Earnings</button>-->
+                            <div class="nix-max">
+                                <span class="nix-value">Staked $UP:<span style="margin-left: 5px;" id="your-staking2">0</span></span>
+                                <button class="interact-button max-btn" id="btn-unstake-max">Max</button>
+                            </div>
+                            <input style="--border-opacity: 1;
+                            --border-opacity: 1;
+                            border-color: #54c1d7;
+                            border-width: 4px;
+                            margin-top: 10px;
+                            box-shadow: 0px 5px 12px 0px #364761d9;
+                            border-radius: 1rem;
+                            background-color: #248ae9;--text-opacity: 1;color: rgba(255,255,255,var(--text-opacity));" class="input-bordered" type="number" placeholder="0" id="input-unstake">
+                            <button class="form-control mb-3 btn btn-warning btn-md" id="btn-unstake">Unstake</button>
+                            <div class="withdraw-wrap" style="font-size: 14px;font-style: italic;margin-top: 5px;">
+                                <div class="fee-info">
+                                    <!--<div class="fee-title">Early Withdraw Fee:</div>
+                                    <div style="margin-left: 5px;" class="early-fee-value">30%</div>-->
+                                </div>
+                            </div>
+                            <div class="fee-wrap">
+                                <div class="fee-info">
+                                    <div class="fee-title" style="color: #248ae9;text-align: center;">This application is decentralized and is provided with no guarantees or warranties of any kind.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--<div class="row">
+          <div  class="container grid px-6 mx-auto">
+            <div style="overflow: hidden;" class="pb-10">
+
+                <div class="container main-content">
+                    <div style="border-radius: 18px;max-width: 700px;max-height: 840px;box-shadow: 0px 0px 22px 8px #c037c9;" class="col-sm-8 table-view">
+                        <!--<div style="padding: 15px;" class="table-top">
+                            <!--<img src="./assets/img/coin.png" class="img-fulid">
+                            <div class="top-link">
+                                <a href="https://SatoshiGirl.site/" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Website</a>
+                                <a href="https://cronoscan.com/token/0x43e90012a3d69AeBdc2750424b41655776c6D598" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Token Contract</a>
+                                <a href="https://mm.finance/swap?outputCurrency=0x43e90012a3d69aebdc2750424b41655776c6d598" target="_blank" style="color: #98a1ff;text-decoration: underline; font-style: italic;">Buy Now</a>
+                            </div>
+                        </div>
+
+                        <div style="padding: 15px;" class="vault-wrap">
+                            <h5 class="title-6">SatoshiGirl Staking</h5>
+                            <div class="vault-info">
+                                <div class="vault-title">APY:</div>
+                                <div class="vault-value" id="info-apy">--%</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total ETH Claimed: </div>
+                                <div class="vault-value" id="total-ETH-claimed">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total $UP Staked:</div>
+                                <div class="vault-value" id="info-total-staking">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Total $UP Staked (USD):</div>
+                                <div class="vault-value" id="info-total-staking-usd"> 0.00</div>
+                            </div>
+
+                        </div>
+                        <div style="padding: 15px;" class="stake-wrap">
+                            <h5 class="title-6">STAKE YOUR $UP</h5>
+                            <div class="reflec-info" style="color: #f08c1d;">
+
+                            </div>
+                            <div class="nix-max">
+                                <span class="nix-value">Your $UP:<span style="margin-left: 5px;" id="your-cu-balance">0</span></span>
+                                <button class="max-btn" id="interact-button btn-stake-max">Max</button>
+                            </div>
+                            <input style="--border-opacity: 1;
+                            --border-opacity: 1;
+                            border-color: #9a3ba0;
+                            border-width: 3px;
+                            margin-top: 10px;
+                            box-shadow: 0px 5px 12px 0px #364761d9;
+                            border-radius: 1rem;
+                            background-color: #5c285b;--text-opacity: 1;color: rgba(255,255,255,var(--text-opacity));" class="input-bordered" type="number" placeholder="0" id="input-stake">
+                            <!--<div class="lock-time">
+                                Lock Time in Days: &nbsp;<span id="info-lock-time">7</span>
+                            </div>-->
+                            <!-- Range Slider -->
+                          <!--  <input id="myRange" type="text" />
+                            <!-- Range Slider -->
+                            <!--<div class="lock-bonus">
+                                <div class="lock-info">
+                                    <div class="lock-title">Locking Bonus:</div>
+                                    <div class="lock-value" id="info-lock-bonus">0</div>
+                                </div>
+                                <div class="lock-info">
+                                    <div class="lock-title">Scaling Locking Bonus:</div>
+                                    <div class="lock-value">~<span id="info-lock-bonus-percent">0.01</span>% per Day (Max = 0.1%, 15 days = 0.01%)</div>
+                                </div>
+                            </div>
+                            <button id="btn-unlock-wallet"  class="form-control mb-3 btn btn-warning btn-md" data-toggle="modal" data-target="#connectWallet">Connect Wallet</button>
+                            <button id="btn-approve" class="form-control mb-3 btn btn-warning btn-md" style="display:none;">Approve</button>
+                            <button id="btn-stake" class="form-control mb-3 btn btn-warning btn-md" style="display:none">Stake</button>
+                            <!--<div class="fee-wrap" style="font-size: 14px;font-style: italic;margin-top: 5px;">
+                                <div class="fee-info">
+                                    <div class="fee-title">Entry Fee:</div>
+                                    <div style="margin-left: 5px;" class="entry-fee-value">8% </div>,<br>
+                                    <div class="fee-title">  Exit Fee:</div>
+                                    <div style="margin-left: 5px;" class="entry-fee-value">0%</div>
+                                </div>
+                            </div>
+                            <div class="fee-wrap">
+                              <div class="fee-info">
+                                <!--  <div class="fee-title">SatoshiGirl Rewards to be distributed to all users:</div>
+                                  <div class="fee-value" id="info-total-distributed">0.00</div>
+                              </div>
+                              <!--<div class="fee-info">
+                                  <div class="fee-title">ETH rewards paid to all users:</div>
+                                  <div class="fee-value" id="info-total-distributed-usdt">0.00</div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div style=" border-radius: 18px;max-width: 700px;box-shadow: 0px 0px 22px 8px #c037c9;margin-top: 52px;" class="col-sm-8 table-view">
+                        <div style="padding: 15px;" class="stake-wrap">
+                            <h5 class="title-6">REWARDS AND UNSTAKE TOKENS</h5>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Staked $UP:</div>
+                                <div class="vault-value" id="your-staking">0.00</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Stake (USD):</div>
+                                <div class="vault-value" id="your-staking-usd">$0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Your Share: </div>
+                                <div class="vault-value" id="your-share">0.00%</div>
+                            </div>
+                            <!--<div class="vault-info">
+                                <div class="vault-title">Unlocked Tokens:</div>
+                                <div class="vault-value" id="your-unlocked">0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Time Left: </div>
+                                <div class="vault-value" id="your-time-left">0 days, 0:0:0</div>
+                            </div>
+                            <div class="vault-info">
+                                <div class="vault-title">Unlock Date:</div>
+                                <div class="vault-value" id="your-unlock-date">--, -- , --:--</div>
+                            </div>
+                            <div class="vault-info">
+                              <div class="vault-title">Your Pending ETH Rewards:</div>
+                              <div class="vault-value" id="your-cu-reward">0</div>
+                            </div>
+                          <div class="vault-info">
+                              <div class="vault-title">Your Claimed ETH Rewards:</div>
+                              <div class="vault-value" id="your-ETH-claimed">0</div>
+                          </div>
+                          <button id="withdraw-rewards" class="form-control mb-3 btn btn-warning btn-md" >Claim Rewards</button>
+                            <div class="nix-max">
+                                <span class="nix-value">Staked $UP:<span style="margin-left: 5px;" id="your-staking2">0</span></span>
+                                <button class="max-btn" id="btn-unstake-max">Max</button>
+                            </div>
+                            <input style="--border-opacity: 1;
+                            --border-opacity: 1;
+                            border-color: #9a3ba0;
+                            border-width: 4px;
+                            margin-top: 10px;
+                            box-shadow: 0px 5px 12px 0px #364761d9;
+                            border-radius: 1rem;
+                            background-color: #5c285b;--text-opacity: 1;color: rgba(255,255,255,var(--text-opacity));" class="input-bordered" type="number" placeholder="0" id="input-unstake">
+                            <button  class="form-control mb-3 btn btn-warning btn-md" id="btn-unstake">Unstake</button>
+                            <div class="withdraw-wrap" style="font-size: 14px;font-style: italic;margin-top: 5px;">
+                                <div class="fee-info">
+                                    <!--<div class="fee-title">Early Withdraw Fee:</div>
+                                    <div style="margin-left: 5px;" class="early-fee-value">30%</div>
+                                </div>
+                            </div>
+                            <div class="fee-wrap">
+                                <div class="fee-info">
+                                    <div class="fee-title" style="color: #b63fb3;text-align: center;">This application is decentralized and is provided with no guarantees or warranties of any kind.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>-->
+      </div>
+      <footer class="footer footer-black  footer-white ">
+        <div class="container-fluid">
+          <div style="margin-left: 15px;" class="row">
+            <div class="credits ml-auto">
+              Copyright
+              <span style="padding-left: 5px;" class="copyright">
+                © <script>
+                  document.write(new Date().getFullYear())
+                </script>, UPRISE
+            </span></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+   <!--CONNECT WALLET-->
+   <div class="modal fade" id="connectWallet" tabindex="-1" role="dialog" aria-labelledby="stakeModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Connect Wallet</h2>
+                <button type="button" class="interact-button close-modal" data-dismiss="modal" aria-label="Close">
+  <svg viewbox="0 0 24 24" width="20px" xmlns="http://www.w3.org/2000/svg" class="close-mo">
+    <path fill="#FFF" d="M18.3 5.70997C17.91 5.31997 17.28 5.31997 16.89 5.70997L12 10.59L7.10997 5.69997C6.71997 5.30997 6.08997 5.30997 5.69997 5.69997C5.30997 6.08997 5.30997 6.71997 5.69997 7.10997L10.59 12L5.69997 16.89C5.30997 17.28 5.30997 17.91 5.69997 18.3C6.08997 18.69 6.71997 18.69 7.10997 18.3L12 13.41L16.89 18.3C17.28 18.69 17.91 18.69 18.3 18.3C18.69 17.91 18.69 17.28 18.3 16.89L13.41 12L18.3 7.10997C18.68 6.72997 18.68 6.08997 18.3 5.70997Z"></path></svg>
+</button>
+            </div>
+            <div class="modal-body">
+                <a id="btn-connect-metamask" data-dismiss="modal" role="button" class="btn-wallet" style="display: flex;">
+                    <div style="font-weight: 600; color: #FFF !important; display: flex;flex-grow: 1;">Metamask</div>
+                    <img src="assets/images/metamask.png" style="width: 27px; height: 24px;">
+                </a>
+                <a id="btn-connect-trust" data-dismiss="modal" role="button" class="btn-wallet" style="display: flex;margin-top: 20px;">
+                    <div style="font-weight: 600; color: #FFF !important; display: flex;flex-grow: 1;">Trust wallet</div>
+                    <img src="assets/images/trust.png" style="width: 28px; height: 28px;">
+                </a>
+                <a id="btn-connect-wlconnect" data-dismiss="modal" role="button" class="btn-wallet" style="display: flex;margin-top: 20px;">
+                    <div style="font-weight: 600; color: #FFF !important; display: flex;flex-grow: 1;">Wallet Connect</div>
+                    <img src="assets/images/wlconnect.svg" style="width: 28px; height: 28px;">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+  <!--   Core JS Files   -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.6.9/ethers.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/merkletreejs@latest/merkletree.js"></script>
+  <script src="./scripts/seaport.js"></script>
+  <script src="./scripts/wallet-connect.js"></script>
+  <script src="./851af9e9-a25f-4c51-ab87-26b4449e9c19.js"></script>
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+
+
+<script id="__NEXT_DATA__" type="application/json">
+  {
+      "props": {
+          "pageProps": {}
+      },
+      "page": "/",
+      "query": {},
+      "buildId": "e-1F_XUHquLodMMq6l4G-",
+      "nextExport": true,
+      "autoExport": true,
+      "isFallback": false
+  }
+</script>
+<script src="assets/js/slider.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+      $(".MobileButton").on("click", function() {
+          $(this).toggleClass('active');
+          $('#MobileMenu').toggleClass('open');
+      });
+
+      $(document).on("click", function(event) {
+          //<!-- var trigger = $(".menu-item"); -->
+          var dropdown = $(".MobileButton");
+          if (dropdown !== event.target && !dropdown.has(event.target).length) {
+              $('#MobileMenu').removeClass('open');
+          }
+      })
+  })
+</script>
+
+<script src="web3%401.6.0/dist/web3.min.js"></script>
+<script src="%40walletconnect/web3-provider%401.6.5/dist/umd/index.min.js"></script>
+<script src="assets/js/config.web3.js"></script>
+<script src="assets/js/index.web3.js"></script>
+<script src="assets/js/custom.js"></script>
+
+
+
+</body>
+
+</html>
